@@ -5,9 +5,9 @@ sexo = int(input("Informe seu Sexo: 1 - Masculino ou 2 - Feminino: "))
 
 if sexo == 1:
     pesoIdeal = (72.7*altura) -58
-    print(f"Seu sexo é Masculino, peso ideal: {pesoIdeal}")
+    print(f"Seu sexo é Masculino, peso ideal: {pesoIdeal:.2f} Kg")
 elif sexo == 2:
     pesoIdeal = (62.1*altura) -44.7
-    print(f"Seu sexo é Feminino, peso ideal: {pesoIdeal}")
+    print(f"Seu sexo é Feminino, peso ideal: {pesoIdeal:.2f} Kg")
 else:
     print(" Sexo Invalido! Digite 1 - Masculino ou 2 - Feminino.")
